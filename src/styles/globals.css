@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  --background: #CCC;
+  --foreground: #171717;
+
+  --card-color: #FAFAFA;
+
+  --bg-secondary: white;
+
+  --color-menu-background: #1e1e1e;
+  --color-menu-foreground: white;
+
+  --color-primary: #E63246;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --card-color: var(--card-color);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Gilroy, sans-serif;
+}
