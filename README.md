@@ -38,29 +38,29 @@ bun dev
     - **`components`**: Компоненты, связанные с формами.
       - `FormCardComponent.js`
       - `FormComponent.js`
-    - **`page.js`**: Страница, связанная с формой.
+    - **`page.js`**: Страница формы.
 
 - **`(studying)`**:
-  - **`components`**: Компоненты, связанные с разделом "изучение".
-    - **`sections`**: Подразделы компонентов.
+  - **`components`**: Компоненты, списка карточек.
+    - **`sections`**: секции.
       - `HeaderSection.js`
       - `SearchSection.js`
       - `CardComponent.js`
     - **`studying`**:
-      - **`page.js`**: Страница, связанная с изучением.
+      - **`page.js`**: Страницас карточками курсов.
 
   - **`layout`**:
-    - **`components`**: Компоненты, связанные с макетом.
+    - **`components`**: Компоненты, связанные с основным лейаутом.
       - `AsideComponent.js`
       - `FooterComponent.js`
-    - **`sections`**: Подразделы макета.
+    - **`sections`**: секции макета.
       - `ButtonsSection.js`
       - `HeaderButtons.js`
       - `HeaderSection.js`
       - `QuizSection.js`
       - `TextSection.js`
-    - **`layout.js`**: Основной файл макета.
-    - **`page.js`**: Страница, связанная с макетом.
+    - **`layout.js`**: Основной файл лейаута.
+    - **`page.js`**: главная страница.
 
   - **`ui`**:
     - **`components`**: UI-компоненты.
