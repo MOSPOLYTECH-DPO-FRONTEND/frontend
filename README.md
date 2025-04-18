@@ -49,18 +49,18 @@ bun dev
     - **`studying`**:
       - **`page.js`**: Страницас карточками курсов.
 
-  - **`layout`**:
-    - **`components`**: Компоненты, связанные с основным лейаутом.
-      - `AsideComponent.js`
-      - `FooterComponent.js`
-    - **`sections`**: секции макета.
-      - `ButtonsSection.js`
-      - `HeaderButtons.js`
-      - `HeaderSection.js`
-      - `QuizSection.js`
-      - `TextSection.js`
-    - **`layout.js`**: Основной файл лейаута.
-    - **`page.js`**: главная страница.
+- **`components`**: Компоненты, связанные с основным лейаутом.
+  - **`layout`**: секции макета.
+    - `AsideComponent.js`
+    - `FooterComponent.js`
+  - **`sections`**: секции макета.
+    - `ButtonsSection.js`
+    - `HeaderButtons.js`
+    - `HeaderSection.js`
+    - `QuizSection.js`
+    - `TextSection.js`
+- **`layout.js`**: Основной файл лейаута.
+- **`page.js`**: главная страница.
 
   - **`ui`**:
     - **`components`**: UI-компоненты.
